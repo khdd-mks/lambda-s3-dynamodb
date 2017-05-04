@@ -1,0 +1,5 @@
+・Lambda作成画面でS3の対象のバケットをトリガーに設定する
+・suffixをconfにする
+・LambdaのIAMロールにLambda実行権限・S3読み取り権限・DynamoDB書き込み権限等を設定する
+    (認証情報をコード上で扱わずに済む)
+・aws-lambda-java-eventsのS3Eventを引数として作成する
